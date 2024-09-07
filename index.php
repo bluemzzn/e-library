@@ -14,13 +14,12 @@
     	<a href="login.php" title="Link">&#128274 Login</a>
     	<a href="signup.php" title="Link">&#128272 Signup</a> </nav>
   </header>
-
+    <div class="container">
   	<div id="content">
-  		<div class="container">
     <section class="sidebar"> 
       <!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
       <div class="search">
-      	<input type="search"  id="search" value="search"> 
+      	<input type="search"  id="search" placeholder="Search..."> 
       	<span>&#128269</span>
       </div>
       <div id="menubar">
@@ -32,7 +31,7 @@
             <li><a href="#" title="Link">000 หนังสือทั่วไป</a></li>
             <li><a href="#" title="Link">100 ปรัชญาและจิตวิทยา</a></li>
             <li><a href="#" title="Link">200 ศาสนา</a></li>
-            <li><a href="#"  title="Link">300 สังคมศาสร์</a></li>
+            <li><a href="#"  title="Link">300 สังคมศาสตร์</a></li>
 			<li><a href="#" title="Link">400 ภาษา</a></li>
             <li><a href="#" title="Link">500 วิทยาศาสตร์และคณิตศาสตร์</a></li>
             <li><a href="#" title="Link">600 เทคโนโลยี</a></li>
@@ -41,9 +40,62 @@
             <li><a href="#"  title="Link">900 ประวัติศาสตร์และภูมิศาสตร์</a></li>
           </ul>
         </nav>
-        
       </div>
+    </section>
+
+
+      <section class="mainContent">
+      <div class="productRow"><!-- Each product row contains info of 3 elements -->
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img src="pic/book.png" ></div>
+          <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
+          <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
+          <p class="price">ราคา : 50B</p>
+          <form>
+          <input type="submit" name="button" value="view" class="buyButton">
+          </form>
+        </article>
+
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img src="pic/book.png" ></div>
+          <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
+          <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
+          <p class="price">ราคา : 50B</p>
+          <input type="button" name="button" value="view" class="buyButton">
+        </article>
+
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img src="pic/book.png" ></div>
+          <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
+          <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
+          <p class="price">ราคา : 50B</p>
+          <input type="button" name="button" value="view" class="buyButton">
+        </article>
+
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img src="pic/book.png" ></div>
+          <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
+          <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
+          <p class="price">ราคา : 50B</p>
+          <input type="button" name="button" value="view" class="buyButton">
+        </article>
+        
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img src="pic/book.png" ></div>
+          <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
+          <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
+          <p class="price">ราคา : 50B</p>
+          <input type="button" name="button" value="view" class="buyButton">
+        </article>
+
+         <article class="productInfo"><!-- Each individual product description -->
+          <div><img src="pic/book.png" ></div>
+          <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
+          <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
+          <p class="price">ราคา : 50B</p>
+          <input type="button" name="button" value="view" class="buyButton">
+        </article>
    
-</div>
+      </div>
 </body>
 </html>
