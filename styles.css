@@ -374,3 +374,82 @@ nav a:hover{
 .productRow .productInfo .buyButton:hover{
 	background-color: darkgreen;
 }
+
+#footerbar {
+	/* Footer bar at the bottom of the page */
+	margin-top: 20px;
+	height: 50px;
+	clear: both;
+	background-color: rgba(208,207,207,1.00);
+	width: 100%;
+}
+
+#footerbar p{
+	display: flex;
+	justify-content: center;
+	color: grey;
+	font-weight: 700;
+	align-items: center;
+	
+}
+
+.prodetail{
+	display: flex;
+	padding: 	35px;
+}
+
+.imgde img{
+	width: 280px;
+	height: 400;
+}
+
+.infode{
+	padding-left: 	30px;
+	padding-top: 	30px;
+}
+.infode	h1, h3, h4, h2, span{
+	padding: 	8px;
+}
+
+.infode p{
+	padding: 8px;
+	font-size: 20px;
+}
+.infode	h1{
+	font-size: 	30px;
+}
+.infode	h2{
+	color: 	green;
+}
+.infode	h3{
+	font-size: 	25px;
+}
+.infode	span{
+	font-size: 	18px;
+	padding-bottom	: 	5px;
+}
+
+.print p{
+	display: flex;
+	flex-direction: column;
+	background-color: lightpink;
+	padding-left: 20px;
+	margin-left: 30px;
+	padding: 10px;
+	
+}
+
+.keyword{
+	display: flex;
+	align-items: center;
+}
+
+.keyword a{
+	text-decoration: none;
+	color: black;
+	background-color: skyblue;
+	text-align: center;
+	border-radius: 10px;
+	width: 40%;
+	max-width:300px;
+}
