@@ -235,6 +235,11 @@ nav a:hover{
 	font-size: 15px;
 	font-weight: 600;
 	padding-left: 30px;
+	color: blue;
+}
+
+.menu  li a:hover{
+	color: hotpink;
 }
 
 /* Whole page content */
@@ -250,63 +255,7 @@ nav a:hover{
 	left: -35px;
 	padding-top: 12px;
 }
-#book1 h2{
-	text-align: left;
-	padding: 10px 10px;
-	font-size: 20px;
-}
 
-#book1 .pro-con{
-	display: flex;
-	justify-content: space-between;
-	padding-top: 20px;
-	flex-wrap: wrap;
-}
-
-
-#book1 .pro{
-	width: 23%;
-	min-width: 250px;
-	padding: 10px 12px;
-	border: 1px solid #cce7d0;
-	border-radius: 25px;
-	cursor: pointer;
-	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-	margin: 15px 0 ;
-	transition: 0.2 ease;
-	position: relative;
-}
-
-
-#book1 .pro:hover{
-	box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.06);
-}
-
-
-#book1 .pro img{
-	width: 100%;
-	border-radius: 20px;
-}
-
-#book1 .pro .desc{
-	text-align: start;
-	padding: 10px 0;
-}
-
-#book1 .pro .desc span{
-	color: #606063;
-	font-size: 12px;
-}
-
-
-#book1 .pro .desc i{
-	font-size: 12px;
-}
-
-#book1 .pro .desc h4{
-	font-size: 12px;
-	color: limegreen;
-}
 
 .productInfo img{
 	width: 80px;
@@ -315,4 +264,113 @@ nav a:hover{
 .container{
 	max-width: 1170px;
 	margin: 0 auto;
+}
+
+.add-pro form{
+	text-align: center;
+	max-width: 400px;
+	border-radius: 10px;
+	border: 1px solid black;
+	padding: 12px 15px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.add-pro h1{
+	padding: 20px;
+}
+.add-pro form h3{
+	margin-bottom: 10px;
+}
+
+.btn-add{
+	color: white;
+	font-size: 12px;
+	border-radius: 8px;
+	width: 80px;
+	border: none;
+	background-color: lightcoral;
+	height: 30px;
+	font-weight: 700;
+	transition: 0.5s ease;
+	margin-top: 15px;
+}
+
+.btn-add:hover{
+	background-color: hotpink;
+}
+
+
+#content .mainContent {
+	float: left;
+	width: 75%;
+	text-align: center;
+	padding-left: 4%;
+	
+}
+
+#content .mainContent .productRow {
+	overflow: auto;
+	color: rgba(146,146,146,1.00);
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+/* Each product Information in the catalog */
+.mainContent .productRow .productInfo {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+	width:250px;
+	border: 1px solid;
+	border-radius: 10px;
+	margin-top: 20px;
+
+}
+.mainContent .productRow .productInfo img{
+	width: 150px;
+	height: 200px;
+}
+/* Prices of a products in catalog */
+.productRow .productInfo .price {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 18px;
+	color: black;
+	position: relative;
+	margin: 5px;
+}
+/* Content holder for products in catalog*/
+.productRow .productInfo .productContent {
+	position: relative;
+	font-size: 18px;
+	font-weight: 200;
+	color: black;
+}
+.productRow .productInfo .productName {
+	position: relative;
+	font-size: 18px;
+	font-weight: 200;
+	color: black;
+	margin: 10px;
+}
+/* Buy button for products in catalog */
+.productRow .productInfo .buyButton {
+	position: relative;
+	width: 84%;
+	background-color: limegreen;
+	height: 35px;
+	color: rgba(255,255,255,1.00);
+	border-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+.productRow .productInfo .buyButton:hover{
+	background-color: darkgreen;
 }
