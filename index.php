@@ -9,7 +9,7 @@
 <body>
 	<div id="mainwrapper">
   <header> 
-    <div id="logo"><a href="#"><img src="pic/logo.png" width="50px" height="50px">ระบบห้องสมุดอิเล็กทรอนิกส์</a></div>
+    <div id="logo"><a href="#"><img src="http://samakkhi.ac.th/wp-content/uploads/2022/07/swk-80x80.png" width="50px" height="50px">ระบบห้องสมุดอิเล็กทรอนิกส์</a></div>
     <nav> <a href="index.php" title="Link">&#127968 Home</a> 
     	<a href="login.php" title="Link">&#128274 Login</a>
     	<a href="signup.php" title="Link">&#128272 Signup</a> </nav>
@@ -47,17 +47,17 @@
       <section class="mainContent">
       <div class="productRow"><!-- Each product row contains info of 3 elements -->
         <article class="productInfo"><!-- Each individual product description -->
-          <div><img src="pic/book.png" ></div>
+          <div><img src="book.png" ></div>
           <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
           <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
-          <p class="price">ราคา : 50B</p>
+          <p class="price">ราคา : 50B</p> 
           <form>
           <input type="submit" name="button" value="view" class="buyButton">
           </form>
         </article>
 
         <article class="productInfo"><!-- Each individual product description -->
-          <div><img src="pic/book.png" ></div>
+          <div><img src="book.png" ></div>
           <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
           <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
           <p class="price">ราคา : 50B</p>
@@ -65,7 +65,7 @@
         </article>
 
         <article class="productInfo"><!-- Each individual product description -->
-          <div><img src="pic/book.png" ></div>
+          <div><img src="book.png" ></div>
           <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
           <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
           <p class="price">ราคา : 50B</p>
@@ -73,7 +73,7 @@
         </article>
 
         <article class="productInfo"><!-- Each individual product description -->
-          <div><img src="pic/book.png" ></div>
+          <div><img src="book.png" ></div>
           <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
           <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
           <p class="price">ราคา : 50B</p>
@@ -81,7 +81,7 @@
         </article>
         
         <article class="productInfo"><!-- Each individual product description -->
-          <div><img src="pic/book.png" ></div>
+          <div><img src="book.png" ></div>
           <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
           <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
           <p class="price">ราคา : 50B</p>
@@ -89,7 +89,7 @@
         </article>
 
          <article class="productInfo"><!-- Each individual product description -->
-          <div><img src="pic/book.png" ></div>
+          <div><img src="book.png" ></div>
           <p class="productName">หนังสือคณิตจิ๋วแจ๋ว </p>
           <p class="productContent">ผู้แต่ง : นิ้วเหลี่ยม </p>
           <p class="price">ราคา : 50B</p>
